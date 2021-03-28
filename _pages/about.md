@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.sfu.ca/computing.html">School of Computing Science</a>, Simon Fraser University, Burnaby, BC, Canada
+description: Postdoc @SFU
 
 profile:
   align: right
