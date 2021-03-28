@@ -65,7 +65,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
+blog_name: # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -90,7 +90,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 7
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -164,9 +164,9 @@ enable_google_analytics:    false
 enable_panelbear_analytics: false
 enable_mansory:             true
 enable_math:                true
-enable_tooltips:            false
+enable_tooltips:            true
 enable_darkmode:            true
-show_social_icons:          false
+show_social_icons:          true
 
 # -----------------------------------------------------------------------------
 # Library versions
