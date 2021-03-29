@@ -11,23 +11,27 @@
 - title: Education
   type: table
   contents:
-    - title: University of British Columbia (UBC), Vancouver – Ph.D. in Biomedical Engineering
+    - title: University of British Columbia (UBC), Vancouver 
+      degree: Ph.D. in Biomedical Engineering
       year: 2015-20
       description:
         - Awarded the <b>Four Year Fellowship (FYF)</b>.
-        - 'Supervisor:</u> <a href="https://bisicl.ece.ubc.ca/rafeef/" target="_blank"><b>Prof. Rafeef Garbi</b></a>'
-    - title: University of British Columbia (UBC), Vancouver – M.A.Sc. in Biomedical Engineering
+        - 'Supervisor: <a href="https://bisicl.ece.ubc.ca/rafeef/" target="_blank"><b>Prof. Rafeef Garbi</b></a>'
+    - title: University of British Columbia (UBC), Vancouver 
+      degree: M.A.Sc. in Biomedical Engineering
       year: 2013-15
       description:
-        - 'Supervisors:</u> <a href="https://bisicl.ece.ubc.ca/rafeef/" target="_blank"><b>Prof. Rafeef Garbi</b></a> and <a href="https://mech.ubc.ca/antony-hodgson/" target="_blank"><b>Prof. Antony Hodgson</b></a>'
-    - title: Bangladesh University of Engineering & Technology (BUET) - M.Sc. in Electrical and Electronic Engineering
+        - 'Supervisors: <a href="https://bisicl.ece.ubc.ca/rafeef/" target="_blank"><b>Prof. Rafeef Garbi</b></a> and <a href="https://mech.ubc.ca/antony-hodgson/" target="_blank"><b>Prof. Antony Hodgson</b></a>'
+    - title: Bangladesh University of Engineering & Technology (BUET) 
+      degree: M.Sc. in Electrical and Electronic Engineering
       year: 2011-13
       description:
-        - 'Supervisor:</u> <a href="http://khasan.buet.ac.bd/" target="_blank"><b>Prof. Md Kamrul Hasan</b></a>'
-    - title: Bangladesh University of Engineering & Technology (BUET) - B.Sc. in Electrical and Electronic Engineering
+        - 'Supervisor: <a href="http://khasan.buet.ac.bd/" target="_blank"><b>Prof. Md Kamrul Hasan</b></a>'
+    - title: Bangladesh University of Engineering & Technology (BUET) 
+      degree: B.Sc. in Electrical and Electronic Engineering
       year: 2006-11
       description:
-        - 'Supervisor:</u> <a href="http://khasan.buet.ac.bd/" target="_blank"><b>Prof. Md Kamrul Hasan</b></a>'
+        - 'Supervisor: <a href="http://khasan.buet.ac.bd/" target="_blank"><b>Prof. Md Kamrul Hasan</b></a>'
 
 - title: Work Experience
   type: table

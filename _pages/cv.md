@@ -55,7 +55,7 @@ nav: true
 						<div class="row">
 							{% if content.year %}
 								<div class="col-xs-2 cl-sm-2 col-md-auto text-left" style="width: 75px;">
-									<span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="width: 75px;">
+									<span class="badge font-weight-bold blue-color-dark text-uppercase align-middle" style="width: 75px;">
 										{{ content.year }}
 									</span>
 								</div>
@@ -63,6 +63,9 @@ nav: true
 							<div class="col-xs-10 cl-sm-10 col-md mt-2 mt-md-0">
 								{% if content.title %}
 								<h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
+								{% endif %}
+                                {% if content.degree %}
+								<h6 class="item-title">{{content.degree}}</h6>
 								{% endif %}
 								{% if content.description %}
 									<ul class="items">
