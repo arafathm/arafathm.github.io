@@ -67,6 +67,9 @@ nav: true
                                 {% if content.degree %}
 								<h6 class="item-title ml-1 ml-md-4">{{content.degree}}</h6>
 								{% endif %}
+                                {% if content.place %}
+								<h6 class="item-title ml-1 ml-md-4">{{content.place}}</h6>
+								{% endif %}
 								{% if content.description %}
 									<ul class="items">
 										{% for item in content.description %}
