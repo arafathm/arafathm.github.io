@@ -17,7 +17,7 @@ nav: true
 	{% for entry in site.data.cv %}
 		<div class="card mt-3 p-3">
 			<h3 class="card-title">{{ entry.title }}</h3>
-			<div>
+			<!--<div>-->
 			{% if entry.type == "list" %}
 				<ul class="card-text font-weight-light list-group list-group-flush">
 				{% for content in entry.contents %}
@@ -112,7 +112,7 @@ nav: true
 				{% endfor %}
 				</ul>
 			{% endif %}
-			</div>
+			<!--</div>-->
 		</div>
 	{% endfor %}
 </div>
