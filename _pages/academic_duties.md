@@ -6,13 +6,6 @@ description:
 nav: true
 ---
 
-<!-- Place PDF download link at the top right. -->
-<div class="row" style="margin-top: -3.5em;">
-	<a class="ml-auto mr-2" href="/assets/pdf/CV_Mohammad_Arafat_Hussain.pdf" target="_blank">
-	  <img height="60px" src="/assets/img/pdf_icon.svg">
-	</a>
-</div>
-
 <div class="aca_duty">
 	{% for entry in site.data.aca_duty %}
 		<div class="card mt-3 p-3">
