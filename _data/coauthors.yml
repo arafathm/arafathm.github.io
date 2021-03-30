@@ -1,18 +1,15 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Rafeef":
+  - firstname: ["Rafeef", "R."]
+    url: https://bisicl.ece.ubc.ca/rafeef/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Ghassan":
+  - firstname: ["Ghassan", "G."]
+    url: https://www.sfu.ca/computing/people/faculty/ghassanhamarneh.html
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Md Kamrul":
+  - firstname: ["Md Kamrul", "M.K."]
+    url: http://khasan.buet.ac.bd/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Antony": 
+  - firstname: ["Antony", "A.J."]
+    url: https://mech.ubc.ca/antony-hodgson/
