@@ -158,6 +158,35 @@
       place: Kidney Cancer Detection and Analysis from CT Using Deep Learning
       year: SEP-2019
       
+- title: Supervisory Experience
+  type: table
+  contents:
+    - title: '<a href="https://www.linkedin.com/in/rohit-krishnan-s/" target="_blank">Rohit Somasundaram</a>, Professional Masters Intern'
+      place: School of Computing Science, Simon Fraser University
+      year: 2020
+      description:
+        - 'Project Title: COVID-19 diagnosis from chest X-ray images'
+    - title: '<a href="https://www.sfu.ca/~ysa195/" target="_blank">Yilin Shi</a>, Professional Masters Intern'
+      place: School of Computing Science, Simon Fraser University
+      year: 2020
+      description:
+        - 'Project Title: COVID-19 diagnosis from CT scans'
+
+- title: Revieweing Experience
+  type: table
+  contents:
+    - title: 'I am/was a reviewer of the following journals/proceedings:'
+      year: 2014-NOW
+      items:
+         - IEEE Transactions on Neural Networks and Learning Systems
+         - IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control
+         - IEEE Access
+         - Elsevier Ultrasonics Journal
+         - Elsevier Computers in Biology and Medicine Journal
+         - Springer Deep Learning in Medical Image Analysis 2019
+         - 'Springer Medical Image Computing and Computer Assisted Intervention 2019/2021'
+
+      
 - title: Selected Workshops/Trainings Attended
   type: table
   contents:
