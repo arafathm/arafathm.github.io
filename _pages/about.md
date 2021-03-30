@@ -4,11 +4,11 @@ title: about
 permalink: /
 description: Postdoc @SFU
 
-profile:
+<!-- profile:
   align: right
   image: img_new.png
   address: >
-   <!-- <p>555 your office number</p>
+   <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p> -->
 
@@ -16,6 +16,9 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
+<div class="text-center mt-5">
+  <img class="profile-img" src="{{ 'img_new.png' | prepend: '/assets/img/'}}">
+</div>
 
 I am currently a Postdoctoral Research Associate in the [Medical Image Analysis Lab (MIAL)](https://www.medicalimageanalysis.com/){:target="_blank"} of [Prof. Ghassan Hamarneh](https://www.sfu.ca/computing/people/faculty/ghassanhamarneh.html){:target="_blank"} at [Simon Fraser University](https://www.sfu.ca/computing.html){:target="_blank"}, Burnaby, BC, Canada. My research interests lie in machine/deep learning and its application to medical image analysis. 
 
