@@ -158,31 +158,50 @@
       place: Kidney Cancer Detection and Analysis from CT Using Deep Learning
       year: SEP-2019
       
-      
-- title: Services
-  type: nested_list
+- title: Selected Workshops/Trainings Attended
+  type: table
   contents:
-    - title: 'Program Committees'
-      items: 'ACL (2020), ICML (2019), NeurIPS (2018-19), EMNLP (2018-19), PLOS-ONE (2018-19), IEEE-TPAMI (2018), and NIPS-AKBC (2016).'
-    - title: 'Conference Workshops Organized'
-      items:
-        - '2019: ICML Adaptive & Multi-Task Learning.'
-        - '2019: ICLR Learning with Limited Labeled Data.'
-        - '2017: NIPS Learning with Limited Labeled Data.'
-    - title: 'University Committees'
-      items:
-        - '2018-19: CMU AI+ Club co-founder and leadership team member.'
-        - '2018-19: Doctoral review committee (DRC) for the CMU Machine Learning Department.'
-        - '2017-18: Speaking skills committee for the CMU Machine Learning Department.'
-        - '2016-18: Education review committee (ERC) for the CMU Machine Learning Department.'
-        - '2014-15: Social committee for the CMU Machine Learning Department.'
-    - title: 'Community Service'
-      items:
-        - '2009: Volunteer at the Lavrion refugee center, in Athens, Greece.'
-        - '2008: Reforestation of mountainside in Rafina, Greece.'
-        - '2008: Volunteer for the International Baccalaureate Organization (IBO) training workshop.'
-        - '2008: 13<sup style="vertical-align: top; position: relative; top: -0.5em;">th</sup> Annual Underwater and Beach Cleanup in Athens, Greece.'
-        - '2008: Helped organize the "Christmas Bazaar" (fund raiser project).'
-        - '2008: Helped organize the "Love Feast" (celebrating  family values and fund raising for the victims of forest fires in Greece).'
-        - '2007: Reforestation in Mani, Greece.'
-        - '2007: Volunteer at the "AQUA GALA" event for physically challenged children, for the "Hellenic Society for Disabled Children".'
+    - title: Privacy and Information Security Fundamentals
+      place: University of British Columbia, Vancouver, BC
+      year: 2019
+    - title: Teaching Skills for Engineering Teaching Assistants
+      place: University of British Columbia, Vancouver, BC
+      year: 2016
+    - title: Preventing and Addressing Workplace Bullying and Harassment 
+      place: University of British Columbia, Vancouver, BC
+      year: 2014
+      
+- title: Elected Position Held
+  type: table
+  contents:
+    - title: Secretary
+      place: '<a href="http://gsa.ece.ubc.ca/contact/past-executives/" target="_blank">Electrical and Computer Engineering Graduate Student Association (ECEGSA)</a>, UBC, Vancouver
+      year: 2017-18
+      
+#- title: Services
+#  type: nested_list
+#  contents:
+#    - title: 'Program Committees'
+#      items: 'ACL (2020), ICML (2019), NeurIPS (2018-19), EMNLP (2018-19), PLOS-ONE (2018-19), IEEE-TPAMI (2018), and NIPS-AKBC (2016).'
+#    - title: 'Conference Workshops Organized'
+#      items:
+#        - '2019: ICML Adaptive & Multi-Task Learning.'
+#        - '2019: ICLR Learning with Limited Labeled Data.'
+#        - '2017: NIPS Learning with Limited Labeled Data.'
+#    - title: 'University Committees'
+#      items:
+#        - '2018-19: CMU AI+ Club co-founder and leadership team member.'
+#        - '2018-19: Doctoral review committee (DRC) for the CMU Machine Learning Department.'
+#        - '2017-18: Speaking skills committee for the CMU Machine Learning Department.'
+#        - '2016-18: Education review committee (ERC) for the CMU Machine Learning Department.'
+#        - '2014-15: Social committee for the CMU Machine Learning Department.'
+#    - title: 'Community Service'
+#      items:
+#        - '2009: Volunteer at the Lavrion refugee center, in Athens, Greece.'
+#        - '2008: Reforestation of mountainside in Rafina, Greece.'
+#        - '2008: Volunteer for the International Baccalaureate Organization (IBO) training workshop.'
+#        - '2008: 13<sup style="vertical-align: top; position: relative; top: -0.5em;">th</sup> Annual Underwater and Beach Cleanup in Athens, Greece.'
+#        - '2008: Helped organize the "Christmas Bazaar" (fund raiser project).'
+#        - '2008: Helped organize the "Love Feast" (celebrating  family values and fund raising for the victims of forest fires in Greece).'
+#        - '2007: Reforestation in Mani, Greece.'
+#        - '2007: Volunteer at the "AQUA GALA" event for physically challenged children, for the "Hellenic Society for Disabled Children".'
