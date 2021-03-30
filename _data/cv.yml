@@ -147,16 +147,16 @@
   contents:
     - title: '<a href="https://www.bme.ubc.ca/events/event/sbme-virtual-seminar-hussain/" target="_blank">School of Biomedical Engineering Virtual Seminar</a>, UBC, Vancouver'
       place: Title: Volumetric Image-based Supervised Learning Approaches for Kidney Cancer Detection & Analysis
-      year: OCT 2020
+      year: 2020
     - title: '<a href="https://www.camca.mgh.harvard.edu/" target="_blank">Center for Advanced Medical Computing and Analysis</a>, Harvard University, Boston, MA'
       place: Title: Volumetric Image-based Supervised Learning for Renal Cancer Detection & Analysis
-      year: NOV 2019
+      year: 2019
     - title: '<a href="http://dbpeds.stanford.edu/" target="_blank">Division of Developmental-Behavioral Pediatrics</a>, Stanford University, Palo Alto, CA'
       place: Title: Kidney Cancer Analysis Using Volumetric Image-based Supervised Learning
-      year: OCT 2019
+      year: 2019
     - title: '<a href="http://dbpeds.stanford.edu/" target="_blank">Centre for Molecular Medicine and Therapeutics</a>, UBC, Vancouver'
       place: Title: Kidney Cancer Detection and Analysis from CT Using Deep Learning
-      year: SEP 2019
+      year: 2019
       
       
 - title: Services
