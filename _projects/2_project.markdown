@@ -25,6 +25,7 @@ Typically, ccRCC grows in different regions of the kidney and is clinically scor
 separately (Fig. 1). Each CNN has twelve layers excluding the input: five convolutional (Conv) layers; three fully connected (FC) layers; one softmax layer; one average pooling layer; and two thresholding layers. All but the last three layers contain trainable weights. The input is the 227×227×3 pixel image slice containing the kidney+ccRCC. We train these CNNs (layers 1–9) using a balanced dataset for each mutation case separately (i.e. a particular mutation-present and absent). During training, images are fed to the CNNs in a randomly shuffled single instance fashion. Typically, Conv layers are known for sequentially learning the high-level non-linear spatial image features (e.g. ccRCC size, orientation, edge variation, etc). We used five Conv layers as the 5th Conv layer typically grabs an entire object (e.g. ccRCC shape) in an image even if there is a significant pose variation. Subsequent FC layers prepare those features for optimal classification of an interrogated image. In our case, three FC layers are deployed to make the decision on the learned features from the 3-ch images to decide if a particular gene mutation is probable or not. The number of FC layers plays a vital role as the overall depth of the model is important for obtaining good performance, and we achieve optimal performance with three FC layers. Layers 10, 11 and 12 (i.e. two thresholding and one average pooling layers) of the CNNs are used during the testing phase and do not contain any trainable weights.
 
 <strong>Data</strong>
+
 We obtained access to 267 patients’ CT scans from The Cancer Imaging Archive (TCIA) database. In this dataset, 138 scans contained at least one mutated
 gene because of ccRCC. For example, 105 patients had VHL, 60 patients had PBRM1, 60 patients had SETD2, and 20 patients had BAP1 mutations. In addition, some of the patients had multiple types of mutations. However, 9 patients had CT scans acquired after nephrectomy and, therefore, those patients’ data
 were not usable for this study. The images in our database included variations in CT scanner models, contrast administration, field of view, and spatial resolution. The in-plane pixel size ranged from 0.29 to 1.87 mm and the slice thickness ranged from 1.5 to 7.5 mm. Ground truth mutation labels were collected from the <i>cBioPortal for Cancer Genomics</i>.
@@ -37,7 +38,7 @@ were not usable for this study. The images in our database included variations i
     </div>
 </div>
 <div class="caption">
-    Fig. 2: Automatic gene mutation detection performance of different methods.
+    Fig. 2: Automatic gene mutation detection performance of different methods, where the proposed method performed the best.
 </div>
 
 <strong>For Details</strong>
