@@ -17,12 +17,12 @@ Fuhrman cancer grading and tumor-node-metastasis (TNM) cancer staging systems ar
     The graphical representation of the architecture of our learnable image histogram using CNN layers. We also break down our piece-wise linear basis function <b>H<sub>b</sub><sup>x</sup></b> on top of the figure in relation to different parts of the learnable image histogram architecture.
 </div>
 
-<strong>Learnable Image Histogram</strong>
+<strong>Learnable Image Histogram</strong>\
 Our proposed learnable image histogram (LIH) stratifies the pixel values in an image <b>x</b> into different learnable and possibly overlapping intervals (bins of width <b>w<sub>b</sub></b>) with arbitrary learnable means (bin centers <b>β<sub>b</sub></b>). Given a 2D image (or a 2D region of interest or patch) <b>x: R<sup>2</sup>→R</b>, the feature value <b>h<sub>b</sub><sup>x</sup>: b ∈ B→R</b>, corresponding to the number of pixels in <b>x</b> whose values fall within the <b>b<sup>th</sup></b> bin, is estimated as:
 
 <b>h<sub>b</sub><sup>x</sup> = Φ{H<sup>x</sup><sub>b</sub>} = Φ{max(0, 1−|x−β<sub>b</sub>| × w<sub>b</sub>)}</b>,
 
-where <b>B</b> is the set of all bins, <b>Φ</b> is the global pooling operator, <b>H<sub>b</sub><sup>x</sup></b> is the piece-wise linear basis function that accumulates positive votes from the pixels in $x$ that fall in the b>b<sup>th</sup></b> bin of interval <b>[β<sub>b</sub>-w<sub>b</sub>/2,β<sub>b</sub>+w<sub>b</sub>/2]</b>, and <b>w<sub>b</sub></b> is the width of the <b>b<sup>th</sup></b> bin. Any pixel may vote for multiple bins with different <b>H<sub>b</sub><sup>x</sup></b> since there could be an overlap between adjacent bins in our learnable histogram. The final $|\mathcal B|\times 1$ feature values from the learned image histogram are obtained using a global pooling <b>Φ</b> over each <b>H<sub>b</sub><sup>x</sup></b> separately.
+where <b>B</b> is the set of all bins, <b>Φ</b> is the global pooling operator, <b>H<sub>b</sub><sup>x</sup></b> is the piece-wise linear basis function that accumulates positive votes from the pixels in $x$ that fall in the b>b<sup>th</sup></b> bin of interval <b>[β<sub>b</sub>-w<sub>b</sub>/2,β<sub>b</sub>+w<sub>b</sub>/2]</b>, and <b>w<sub>b</sub></b> is the width of the <b>b<sup>th</sup></b> bin. Any pixel may vote for multiple bins with different <b>H<sub>b</sub><sup>x</sup></b> since there could be an overlap between adjacent bins in our learnable histogram. The final <b>|B|×1</b> feature values from the learned image histogram are obtained using a global pooling <b>Φ</b> over each <b>H<sub>b</sub><sup>x</sup></b> separately.
 
 
 <div class="row">
@@ -34,7 +34,7 @@ where <b>B</b> is the set of all bins, <b>Φ</b> is the global pooling operator,
     Multiple instance decisions aggregated ImHistNet for RCC grade and stage classification. The light green block represents the proposed LIH layer shown in the previous figure.
 </div>
 
-<strong>ImHistNet Classifier Architecture</strong>
+<strong>ImHistNet Classifier Architecture</strong>\
 The classification network comprises ten layers: the LIH layer, five (F1-F5) fully connected layers (FCLs), one softmax layer, one average pooling (AP) layer, and two thresholding layers. The first seven layers contain trainable weights. The input is a 64×64 pixel image patch extracted from the kidney+RCC slices. During training, we fed randomly shuffled image patches individually to the network. The LIH layer learns the variables <b>β<sub>b</sub></b> and <b>w<sub>b</sub></b> to extract characteristic textural features from image patches. In implementing the proposed ImHistNet, we chose <b>B = 128</b> and "average" pooling at <b>H<sub>b</sub><sup>x</sup></b>. We set subsequent FCL (F1-F5) size to 4096×1. The number of FCLs plays a vital role as the model's overall depth is important for good performance. Empirically, we achieved good performance with five FCL layers. Layers 8, 9, and 10 of the ImHistNet are used during the testing phase and do not contain any trainable weights.
 
 <div class="row">
