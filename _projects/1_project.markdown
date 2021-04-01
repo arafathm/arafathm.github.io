@@ -14,11 +14,14 @@ Fuhrman cancer grading and tumor-node-metastasis (TNM) cancer staging systems ar
     </div>
 </div>
 <div class="caption">
-    The graphical representation of the architecture of our learnable image histogram using CNN layers.
+    The graphical representation of the architecture of our learnable image histogram using CNN layers. We also break down our piece-wise linear basis function <b>H<sub>b</sub><sup>x</sup></b> on top of the figure in relation to different parts of the learnable image histogram architecture.
 </div>
-Our proposed learnable image histogram (LIH) stratifies the pixel values in an image <b>x</b> into different learnable and possibly overlapping intervals (bins of width <b>w<sub>b</sub></b>) with arbitrary learnable means (bin centers <b>β<sub>b</sub></b>). Given a 2D image (or a 2D region of interest or patch) <b>x: R<sup>2</sup>→R</b>, the feature value <b>h<sub>b</sub><sup>x</sup>:b ∈ B→R</b>, corresponding to the number of pixels in <b>x</b> whose values fall within the <b>b<sup>th</sup></b> bin, is estimated as:
 
-<b>h<sup>x</sup><sub>b</sub> = Φ{H<sup>x</sup><sub>b</sub>}= Φ{max(0,1−|x−β<sub>b</sub>|× ̃w<sub>b</sub>)}</b>,
+Our proposed learnable image histogram (LIH) stratifies the pixel values in an image <b>x</b> into different learnable and possibly overlapping intervals (bins of width <b>w<sub>b</sub></b>) with arbitrary learnable means (bin centers <b>β<sub>b</sub></b>). Given a 2D image (or a 2D region of interest or patch) <b>x: R<sup>2</sup>→R</b>, the feature value <b>h<sub>b</sub><sup>x</sup>: b ∈ B→R</b>, corresponding to the number of pixels in <b>x</b> whose values fall within the <b>b<sup>th</sup></b> bin, is estimated as:
+
+<b>h<sub>b</sub><sup>x</sup> = Φ{H<sup>x</sup><sub>b</sub>} = Φ{max(0, 1−|x−β<sub>b</sub>| × w<sub>b</sub>)}</b>,
+
+where <b>B</b> is the set of all bins, <b>Φ</b> is the global pooling operator, <b>H<sub>b</sub><sup>x</sup></b> is the piece-wise linear basis function that accumulates positive votes from the pixels in $x$ that fall in the b>b<sup>th</sup></b> bin of interval <b>[β<sub>b</sub>-w<sub>b</sub>/2,β<sub>b</sub>+w<sub>b</sub>/2]</b>, and w<sub>b</sub> is the width of the <b>b<sup>th</sup></b> bin. Any pixel may vote for multiple bins with different <b>H<sub>b</sub><sup>x</sup></b> since there could be an overlap between adjacent bins in our learnable histogram. The final $|\mathcal B|\times 1$ feature values from the learned image histogram are obtained using a global pooling <b>Φ</b> over each <b>H<sub>b</sub><sup>x</sup></b> separately.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
