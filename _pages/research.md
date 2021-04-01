@@ -41,7 +41,6 @@ nav: true
         </div>
       </div>
     </a>
-    </a>
   </div>
   {% endfor %}
 
