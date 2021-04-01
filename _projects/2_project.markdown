@@ -1,23 +1,13 @@
 ---
 layout: page
-title: Radiogenomics with Deep Learning
+title: Gene Mutation Prediction using Deep Learning
 description: Multiple Instance Dcision Aggregation for Gene Mutation Detection from CT
-img: /assets/img/3.jpg
+img: /assets/img/r2_cover.png
 importance: 2
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Kidney clear cell renal cell carcinoma (ccRCC) is the major sub-type of RCC, constituting one the most common cancers worldwide accounting for a steadily increasing mortality rate with 350,000 new cases recorded in 2012. Understanding the underlying genetic mutations in ccRCC provides crucial information enabling malignancy staging and patient survival estimation thus plays a vital role in accurate ccRCC diagnosis, prognosis, treatment planning, and response assessment. Although the underlying gene mutations can be identified by whole genome sequencing of the ccRCC following invasive nephrectomy or kidney biopsy procedures, recent studies have suggested that such mutations may be noninvasively identified by studying image features of the ccRCC from Computed Tomography (CT) data. Such image feature identification currently relies on laborious manual processes based on visual inspection of 2D image slices that are time-consuming and subjective. We proposed a convolutional neural network approach for automatic detection of underlying ccRCC gene mutations from 3D CT
+volumes. We aggregate the mutation-presence/absence decisions for all the ccRCC slices in a kidney into a robust singular decision that determines whether the interrogated kidney bears a specific mutation or not. When validated on clinical CT datasets of 267 patients from the TCIA database, our method detected gene mutations with 94% accuracy.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
