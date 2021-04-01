@@ -16,8 +16,9 @@ Fuhrman cancer grading and tumor-node-metastasis (TNM) cancer staging systems ar
 <div class="caption">
     The graphical representation of the architecture of our learnable image histogram using CNN layers.
 </div>
-Our proposed learnable image histogram (LIH) stratifies the pixel values in an image <i>x</i> into different learnable and possibly overlapping intervals (bins of width <i>w</i><sub>b</sub>sub>) with arbitrary learnable means (bin centers <i>β</i><sub>b</sub>). Given a 2D image (or a 2D region of interest or patch) <i>x: R<sup>2</sup> → R</i>, the feature value <i>h<sub>b</sub><sup>x</sup>: b ∈ B → R</i>, corresponding to the number of pixels in <i>x</i> whose values fall within the <i>b<sup>th</sup></i> bin, is estimated as:
+Our proposed learnable image histogram (LIH) stratifies the pixel values in an image <b>x</b> into different learnable and possibly overlapping intervals (bins of width <b>w<sub>b</sub></b>) with arbitrary learnable means (bin centers <b>β<sub>b</sub></b>). Given a 2D image (or a 2D region of interest or patch) <b>x: R<sup>2</sup>→R</b>, the feature value <b>h<sub>b</sub><sup>x</sup>:b ∈ B→R</b>, corresponding to the number of pixels in <b>x</b> whose values fall within the <b>b<sup>th</sup></b> bin, is estimated as:
 
+<b>h<sup>x</sup><sub>b</sub> = Φ{H<sup>x</sup><sub>b</sub>}= Φ{max(0,1−|x−β<sub>b</sub>|× ̃w<sub>b</sub>)}</b>,
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
