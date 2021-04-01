@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: Deep/machine learning research project titles are indicated with <font style="color:blue;">Blue fonts</font>.
+description: Deep learning research project titles are indicated with <font style="color:blue;">Blue fonts</font>.
 nav: true
 ---
 
