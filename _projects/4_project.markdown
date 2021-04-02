@@ -1,7 +1,7 @@
 ---
 layout: page
 title: <font style="color:blue;">Deep Learning</font> for Organ Localization
-description: Healthy and Pathologic Kidney Localization in CT
+description: Healthy and Pathological Kidney Localization in CT
 img: /assets/img/r4_cover.png
 importance: 3
 ---
@@ -53,9 +53,9 @@ We also used 210 patients’ CT scans from the 2019 Kidney Tumor Segmentation (K
     </div>
 </div>
 <div class="caption">
-    Fig. 3: Kidney boundary wall localization by different methods. The results for our preliminary work (published in 2017) is shown with Red box. The results by our latest work (accepted in 2021) are indicated with Blue box.
+    Fig. 3: Kidney boundary wall localization performance by different methods. The results for our preliminary work (published in 2017) is shown with Red box. The results by our latest work (accepted in 2021) are indicated with Blue box.
 </div>
 
 <strong>For Details</strong>
 
-Please read our papers [[1](https://ieeexplore.ieee.org/abstract/document/9358223?casa_token=rxZNi4GaP-YAAAAA:vlaAvOf6J1pKBT9goM4k0cCgPyJQ9NgOg_SSzt4iAFwHINOSelv-LsPXU44-XYmkME_wsI8)][[2](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_70)].
+Please read our papers [[1](https://ieeexplore.ieee.org/abstract/document/9358223?casa_token=rxZNi4GaP-YAAAAA:vlaAvOf6J1pKBT9goM4k0cCgPyJQ9NgOg_SSzt4iAFwHINOSelv-LsPXU44-XYmkME_wsI8)], [[2](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_70)].
