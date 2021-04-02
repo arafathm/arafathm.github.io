@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <font style="color:blue;">Semi-supervised Deep Learning</font> for Segmentation
+title: <font style="color:blue;">Semisupervised Deep Learning</font> for Segmentation
 description: Lung and Infection Segmentation in COVID-19 CT
 img: /assets/img/cv_cover.png
 importance: 2
@@ -22,7 +22,7 @@ In this project, we planned to explore and compile different publicly available 
 <div class="caption">
     Fig. 1: The graphical representation of the different steps of our semi-supervised deep learning for COVID-19 infection segmentation.
 </div>
-
+We used the 3D UNet with residual connections as the deep model. This method has 4 stepps: (1) At first, we use a 5-fold cross-validation to train the based model. (2) Then we select the best performing model for the later steps. (3) After that we used the best model to produce pseudo annotation for a small number of annotation-less data. (4) Finally, we added those newly annotated data to the expert-annotated datapool and finetune the model. We repeat steps 3 and 4 untill we finish iterating over the all the annotationless-data. 
 
 <strong>Data</strong>
 
@@ -30,23 +30,17 @@ We accessed a publicly available COVID-19 CT databases which contain pixel-level
 
 <strong>Results</strong>
 
+The base model training run for 100 epochs/fold and the mean Dice metrics for five-fold cross-validations are 0.83, 0.88, 0.71, 0.68, and 0.74 respectively.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/r1_fig3.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/cv_fig2.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    Fig. 3: RCC grading performance by different methods, where the proposed method performed the best.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/r1_fig4.png' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Fig. 4: RCC staging performance by different methods, where the proposed method performed the best.
+    Fig. 2: Qualitative lung and infection segmentation results by the proposed method on the benchmark expert-annotated data and annotation-less data.
 </div>
 
 <strong>For Details</strong>
 
-Please read our papers [[1](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_15)], [[2](https://link.springer.com/chapter/10.1007/978-3-030-32692-0_61)]. Code can be found [here](https://github.com/marafathussain/ImHistNet).
+Please find the base 5-fold cross-validation code and trained model [here](https://github.com/marafathussain/3DUNet_Lung_COVID_Segmentation).
