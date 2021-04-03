@@ -39,7 +39,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 github_username: marafathussain # your GitHub user name
+=======
+github_username: # your GitHub user name
+gitlab_username: # your GitLab user name
+>>>>>>> 0e4df831af177408965e18d49343473038533f3d
 twitter_username: # your Twitter handle
 linkedin_username: mohammad-arafat-hussain # your LinkedIn user name
 scholar_userid: https://scholar.google.ca/citations?user=hFwvdQcAAAAJ&hl=en # your Google Scholar ID
@@ -128,6 +133,9 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
+# Extras
+github: [metadata]
+
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
@@ -163,7 +171,7 @@ enable_mansory:             true
 enable_math:                true
 enable_tooltips:            true
 enable_darkmode:            true
-show_social_icons:          true
+enable_navbar_social:       true
 
 # -----------------------------------------------------------------------------
 # Library versions
