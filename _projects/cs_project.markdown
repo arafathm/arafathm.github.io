@@ -3,7 +3,7 @@ layout: page
 title: Compressive Sensing
 description: Compressively Sensed Ultrasound Radio-frequency Data Reconstruction
 img: /assets/img/cs_cover.png
-importance: 5
+importance: 4
 ---
 
 Ultrasound (US) imaging has become an essential part of clinical routine that produces real-time images of patient anatomy. As a non-ionizing and low-cost modality, US has a number of advantages over other medical imaging modalities like non-invasiveness, portability, and versatility. However, handling a large amount of US data during real-time imaging as well as its transmission at low bit rate (and without any perceived loss of image quality) in tele-medicine are considered limiting factors.
