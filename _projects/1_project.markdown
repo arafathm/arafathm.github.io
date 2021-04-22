@@ -61,4 +61,4 @@ We used CT scans of 159 patients from The Cancer Imaging Archive (TCIA) database
 
 <strong>For Details</strong>
 
-Please read our papers [[1](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_15)], [[2](https://link.springer.com/chapter/10.1007/978-3-030-32692-0_61)]. Code can be found [here](https://github.com/marafathussain/ImHistNet).
+Please read our papers [[1](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_15)], [[2](https://link.springer.com/chapter/10.1007/978-3-030-32692-0_61)], [[3](https://www.sciencedirect.com/science/article/abs/pii/S0895611121000732)]. Code can be found [here](https://github.com/marafathussain/ImHistNet).
