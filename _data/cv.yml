@@ -40,9 +40,12 @@
 - title: Professional Experience
   type: table
   contents:
+    - title: Postdoctoral Research Fellow
+      place: Harvard Medical School/Boston Children’s Hospital, Boston, MA
+      year: 2021-Now
     - title: Postdoctoral Research Associate
       place: Simon Fraser University, Burnaby, BC, Canada
-      year: 2020-Now
+      year: 2020-21
     - title: Laboratory Admin
       place: Biomedical Signal and Image Computing Laboratory, University of British Columbia, Vancouver, BC
       year: 2018-20
@@ -180,7 +183,8 @@
       items:
          - IEEE Transactions on Neural Networks and Learning Systems
          - IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control
-         - IEEE Access
+         - IEEE Access 
+         - BMJ Open Journal
          - Elsevier Ultrasonics Journal
          - Elsevier Computers in Biology and Medicine Journal
          - Springer Deep Learning in Medical Image Analysis 2019
